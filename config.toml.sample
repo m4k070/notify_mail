@@ -1,0 +1,8 @@
+[mail]
+server="imap server address"
+port=143
+use_ssl=false
+user="user id"
+password="password"
+hook_url="slack incoming hook url"
+interval=60
