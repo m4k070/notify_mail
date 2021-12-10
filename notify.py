@@ -93,7 +93,7 @@ def main():
             print(response.getcode())
             html = response.read()
             print(html.decode("utf-8"))
-            notify_numbers = numbers
+            notify_numbers.extend(numbers)
 
         time.sleep(interval)
 
